@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+/*  Basic CSS*/
+
+.main-container {
+    background-color: skyblue;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.top-header {
+    color: whitesmoke;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 1em;
+    background-image: rgb(182, 98, 42);
+}
+
+.columns {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#navbar ul {
+    display: inline-flex;
+    color: burlywood;
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+}
+
+footer {
+    padding: 1.5em;
+    background: lightgrey;
+}
+
+/* Flexbox */
+
+/* # FlexBox Nav Bar */
+
+@media (min-width: 769px) {
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* .navbar	ul {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+} */
+}
+
+/* 
+#b97e78  rose color
+
+rgb(123, 118, 175);  purple
+#7b76af */
