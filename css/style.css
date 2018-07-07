@@ -103,8 +103,8 @@ ul {
 
 ul.items,
 li {
-    font-size: 20px;
     display: none;
+    font-size: 20px;
     flex-direction: column;
     align-self: flex-start;
     text-decoration: none;
@@ -189,15 +189,15 @@ li {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-}
+
 
 h1  {
     font-size-adjust: 30px;
 }
-/* button {
-    display: ;
-} */
-
+button {
+    display: none;
+}
+}
 footer.wrap,
 ul,
 li {
