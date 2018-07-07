@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: auto;
@@ -11,7 +12,13 @@ body {
     margin: auto;
 }
 
-h1,
+h1  {
+    font-size-adjust: 0.75;
+    color: #f5f5f5;
+    z-index: 1;
+}
+
+
 h2,
 h3,
 p {
@@ -65,14 +72,6 @@ h2.subheader {
     font-size: 16px;
 }
 
-/* Not working */
-
-.icon {
-    color: whitesmoke;
-}
-
-/* broke */
-
 /*-- /class styles --*/
 
 /*-- Navbar --*/
@@ -87,13 +86,25 @@ h2.subheader {
     position: sticky;
 }
 
+button {
+    display: block;
+    background-color: #7d5425;
+    color: whitesmoke;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+
 ul {
     list-style-type: none;
 }
 
+
+
 ul.items,
 li {
-    display: flex;
+    font-size: 20px;
+    display: none;
     flex-direction: column;
     align-self: flex-start;
     text-decoration: none;
@@ -142,6 +153,17 @@ label {
 
 /* /e-newsletter sign-up */
 
+/* Photos.html styles */
+
+#carousel {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+/* /Photos.html styles */
+
+
+
 /* footer */
 
 footer.wrap,
@@ -169,6 +191,13 @@ li {
     }
 }
 
+h1  {
+    font-size-adjust: 30px;
+}
+/* button {
+    display: ;
+} */
+
 footer.wrap,
 ul,
 li {
@@ -178,3 +207,4 @@ li {
 }
 
 @media (min-width: 1025px) {
+}
