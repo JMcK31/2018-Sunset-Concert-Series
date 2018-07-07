@@ -62,9 +62,9 @@ $(document).on("click", function () {
     $(".showup").hide();
 });
 
-// $(document).on("button", function () {
-//     $("ul").show();
-// });
+$(document).on("button", function () {
+    $("ul").show();
+});
 
 $("#menu").click(function () {
     $("#nav").toggle();
