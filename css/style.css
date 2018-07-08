@@ -79,7 +79,7 @@ h2.subheader {
 #menu {
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 30px; 
     overflow: hidden;
     background-color: #7d5425;
     position: -webkit-sticky;
@@ -90,8 +90,8 @@ button {
     display: block;
     background-color: #7d5425;
     color: whitesmoke;
-    margin-top: 35px;
-    margin-left: 60px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 
@@ -170,7 +170,7 @@ footer.wrap,
 ul,
 li {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     margin: 0;
     padding: 1.5em;
     background: #7d5425;
@@ -181,14 +181,14 @@ li {
 /* Reponse */
 
 @media all and (min-width: 799px) {
-    ul.items,
-    li {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
+ul.items,
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 
 
 h1  {
@@ -197,6 +197,7 @@ h1  {
 button {
     display: none;
 }
+
 }
 footer.wrap,
 ul,
