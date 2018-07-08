@@ -25,8 +25,12 @@ h3,
 p {
     color: whitesmoke;
     text-align: center;
+    
 }
 
+h3.para-header  {
+    text-shadow: 1px 1px 0px black;
+}
 h2.subheader {
     font-size: 16px;
     font-style: italic;
