@@ -9,6 +9,6 @@
 //  }
 
 
-$("button").click(function()    {
+$("button.navButton").click(function()    {
     $(".items").toggle();
 });
