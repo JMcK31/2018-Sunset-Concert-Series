@@ -37,6 +37,10 @@ h2.subheader {
     text-shadow: 2px 2px 3px black;
 }
 
+a.para-link {
+    color: #736db5;
+    text-shadow: 1px 1px #f36b50ba;
+}
 /* end baseline css */
 
 /* Class Styles */
