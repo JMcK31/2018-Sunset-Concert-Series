@@ -41,6 +41,10 @@ a.para-link {
     color: #736db5;
     text-shadow: 1px 1px #f36b50ba;
 }
+
+.img-shadow {
+    box-shadow: 4px 5px 10px 0px #00000045;
+}
 /* end baseline css */
 
 /* Class Styles */
@@ -53,6 +57,8 @@ a.para-link {
     padding: 100px;
     margin-bottom: 1em;
     opacity: .8;
+    box-shadow: 0px 7px 12px 2px #0000004a;
+    }
 }
 
 .social-icon {
