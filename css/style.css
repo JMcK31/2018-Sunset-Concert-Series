@@ -46,7 +46,7 @@ a.para-link {
 /* Class Styles */
 
 .banner {
-    background-image: url("../img/farmshot.jpg");
+    background-image: url("../img/landscape.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -203,7 +203,7 @@ li {
 #menu {
     margin: auto;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     overflow: hidden;
     background-color: #7d5425;
     position: -webkit-sticky;
