@@ -249,7 +249,7 @@ li {
 
 /* Reponse */
 
-@media all and (min-width: 799px) {
+@media all and (min-width: 800px) {
 ul.items,
 li {
     display: flex;
