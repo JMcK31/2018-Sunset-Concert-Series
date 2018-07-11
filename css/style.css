@@ -8,9 +8,12 @@
 
 body {
     background: linear-gradient( #7b76af, #dfac8f);
+    font-family: Arial;
     width: 100%;
-    margin: auto;
+    margin: 0;
+    padding: 0;
 }
+
 
 h1.bannerHeader  {
     font-size: 45px;
@@ -141,6 +144,7 @@ a:hover {
     color: whitesmoke;
     border-radius: 10px;
     text-decoration: none;
+    box-shadow: 4px 5px 10px 0px #00000045;
 }
 
 li a::selection {
