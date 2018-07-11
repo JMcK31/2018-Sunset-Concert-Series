@@ -4,6 +4,11 @@
     margin: auto;
 }
 
+@font-face  {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+  
 /*  baseline CSS*/
 
 body {
@@ -62,7 +67,7 @@ a.para-link {
     margin-bottom: 1em;
     opacity: .8;
     box-shadow: 0px 7px 12px 2px #0000004a;
-    z-index: 1;
+  
     }
 
 
@@ -73,6 +78,7 @@ a.para-link {
 .main-body {
     margin-top: 20px;
     margin-bottom: 20px;
+    z-index: 2;
 }
 
 .brand {
