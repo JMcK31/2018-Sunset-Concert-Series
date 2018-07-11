@@ -58,17 +58,41 @@ a.para-link {
 
 /* Class Styles */
 
-.banner {
+.banner-home {
     background-image: url("../img/landscape.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     padding: 100px;
     margin-bottom: 1em;
     opacity: .8;
     box-shadow: 0px 7px 12px 2px #0000004a;
-  
-    }
+}
+
+.banner-lineup {
+    background-image: url("../img/zlp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 1em;
+    opacity: .8;
+    box-shadow: 0px 7px 12px 2px #0000004a;
+}
+
+.banner-photos  {
+      background-image: url("../img/kid-run.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 100px;
+      margin-bottom: 1em;
+      opacity: .8;
+      box-shadow: 0px 7px 12px 2px #0000004a;
+}
 
 
 .social-icon {
@@ -259,7 +283,7 @@ li {
 @media (min-width: 1025px) {
 h1.bannerHeader {
     font-size: 45px;
-    color: #ffccbd;
+    color: white;
     text-shadow: 2px 2px 3px black;
     z-index: 1;
 }
