@@ -229,11 +229,16 @@ label {
     margin-bottom: 150px;
 }
 
-/* /Photos.html styles */
+/*-- /Photos.html styles --*/
+
+/*-- linup page --*/
 
 
 
-/* footer */
+/*-- /linup page --*/
+
+
+/*-- footer --*/
 
 footer.wrap,
 ul,
@@ -245,9 +250,9 @@ li {
     background: #7d5425;
 }
 
-/* /footer */
+/*-- /footer --*/
 
-/* Reponse */
+/*-- Reponse --*/
 
 @media all and (min-width: 800px) {
 ul.items,
