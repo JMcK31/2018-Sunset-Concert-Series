@@ -231,11 +231,14 @@ label {
 
 /*-- /Photos.html styles --*/
 
-/*-- linup page --*/
+/*-- linupe page --*/
 
+.lineupImg {
+    height: auto;
+    width: 100%;
+}
 
-
-/*-- /linup page --*/
+/*-- /linupe page --*/
 
 
 /*-- footer --*/
