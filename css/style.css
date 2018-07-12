@@ -106,8 +106,8 @@ a.para-link {
 }
 
 .main-body {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2em;
+    margin-bottom: 3em;
     z-index: 2;
 }
 
@@ -145,13 +145,13 @@ a.para-link {
     position: fixed;
     top: 0;
     width: 100%;
-       margin: auto;
-       padding-top: 10px;
-       padding-bottom: 40px;
-       overflow: hidden;
-       background-color: #7d5425;
-       z-index: 1;
-       
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    background-color: #7d5425;
+    z-index: 1;
+    
 }
 
 button {
@@ -236,6 +236,7 @@ label {
 .lineupImg {
     height: auto;
     width: 100%;
+    margin: 1em;
 }
 
 /*-- /linupe page --*/
