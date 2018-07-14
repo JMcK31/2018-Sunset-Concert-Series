@@ -139,10 +139,11 @@ a.para-link {
     padding-bottom: 35px; 
     overflow: hidden;
     background-color: #7d5425;
+        position: -webkit-sticky;
+        position: sticky;
 }
 
 .sticky {
-    position: fixed;
     top: 0;
     width: 100%;
     margin: auto;
