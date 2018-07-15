@@ -269,12 +269,6 @@ label {
     margin-bottom: 150px;
 }
 
-.gallery-img  {
-    display: block;
-    width: 100%;
-}
-
-
 /*-- /Photos.html styles --*/
 
 /*-- linupe page --*/
@@ -301,6 +295,10 @@ li {
     background: #7d5425;
 }
 
+ul.box  {
+    width: 100%;
+    margin: auto;
+}
 /*-- /footer --*/
 
 /*-- Reponse --*/
