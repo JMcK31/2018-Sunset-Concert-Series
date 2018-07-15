@@ -216,17 +216,22 @@ i   {
 /* /Navbar */
 
 /* e-newsletter signup */
+ .newsletter-wrap  {
+    display: flex;
+    justify-content: center;
+ }
 
 #mc_embed_signup {
     background: #C84687;
     clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
+    font: 1em Helvetica, Arial, sans-serif;
     width: 100%;
 }
 
 #mc_embed_signup .button {
     background-color: #543919;
     color: whitesmoke;
+    cursor: pointer;
 }
 
 label {
@@ -271,6 +276,13 @@ li {
 
 /*-- Reponse --*/
 
+@media all and (max-width: 325px)  {
+#mc_embed_signup {
+    background: #C84687;
+    clear: left;
+    font: 13px Helvetica, Arial, sans-serif;
+    width: 100%;
+
 @media all and (min-width: 800px) {
 ul.items,
 li {
@@ -314,6 +326,10 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+label {
+    display: inline-block;
 }
 
 @media (min-width: 1025px) {
