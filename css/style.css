@@ -24,6 +24,7 @@ h1.bannerHeader  {
     font: 45px Helvetica,
     Arial,
     sans-serif;
+    font-weight: 600;
     color: #f5f5f5;
     text-shadow: 2px 2px 3px black; 
 }
@@ -42,6 +43,7 @@ h3.para-header  {
 }
 h2.subheader {
     font-size: 22px;
+    font-weight: 700;
     color: whitesmoke;
     font-style: italic;
     text-shadow: 1px 1px 1px #0000007d;
@@ -249,6 +251,15 @@ label {
     margin-bottom: 150px;
 }
 
+.gallery-img  {
+    display: block;
+    width: 100%;
+}
+
+.carousel-inner {
+    box-shadow: 0px 7px 12px 2px #0000004a;
+}
+
 /*-- /Photos.html styles --*/
 
 /*-- linupe page --*/
@@ -287,7 +298,7 @@ li {
 }
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
 
 ul.items,
 li  {
