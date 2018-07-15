@@ -4,10 +4,10 @@
     margin: auto;
 }
 
-@font-face  {
+/* @font-face  {
     font-family: 'Courier New', Courier, monospace;
 
-}
+} */
   
 /*  baseline CSS*/
 
@@ -21,7 +21,9 @@ body {
 
 
 h1.bannerHeader  {
-    font-size: 45px;
+    font: 45px Helvetica,
+    Arial,
+    sans-serif;
     color: #f5f5f5;
     text-shadow: 2px 2px 3px black; 
 }
@@ -267,6 +269,7 @@ ul,
 li {
     display: flex;
     flex-wrap: wrap-reverse;
+    justify-content: center;
     margin: 0;
     padding: 1em;
     background: #7d5425;
@@ -277,15 +280,17 @@ li {
 /*-- Reponse --*/
 
 @media all and (max-width: 325px)  {
-#mc_embed_signup {
-    background: #C84687;
-    clear: left;
-    font: 13px Helvetica, Arial, sans-serif;
-    width: 100%;
+
+ #mc_embed_signup  {
+    font: 13px;
+}
+}
+
 
 @media all and (min-width: 800px) {
+
 ul.items,
-li {
+li  {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -293,7 +298,7 @@ li {
     padding-bottom: 5px;
 }
 
-#menu {
+#menu  {
     margin: auto;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -307,7 +312,7 @@ li {
 h1  {
     font-size-adjust: 50px;
 }
-button.navButton {
+button.navButton  {
     display: none;
 }
 
@@ -318,26 +323,25 @@ button.navButton {
     padding: 150px;
 }
 
-
-}
 footer.wrap,
 ul,
-li {
+li  {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-label {
+label  {
     display: inline-block;
 }
 
-@media (min-width: 1025px) {
-h1.bannerHeader {
+
+@media (min-width: 1025px)  {
+
+h1.bannerHeader  {
     font-size: 45px;
     color: white;
     text-shadow: 2px 2px 3px black;
     z-index: 1;
 }
-
 }
