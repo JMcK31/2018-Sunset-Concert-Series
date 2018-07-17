@@ -41,6 +41,7 @@ p {
 h3.para-header  {
     text-shadow: 1px 1px 0px black;
 }
+
 h2.subheader {
     font-size: 22px;
     font-weight: 700;
@@ -125,22 +126,22 @@ a.para-link {
 .tickets-btn {
     display: inline-block;
     font-size: 32px;
-    color: white;
+    font-color: white;
     background-color: #fc7e04;
     border-color: #fc7e04;
     border: 1px solid transparent;
     padding: 15px 32px;
     text-decoration: none;
     border-radius: 10px;
-    transition: color .15s ease-in-out,
-    background-color .15s ease-in-out,
-    border-color .15s ease-in-out,
-    box-shadow .15s ease-in-out;
-    }
+}
 
+.btn-text   {
+    color: white;
+}
 
-
-
+a:hover.btn-text {
+    color:blue;
+}
 
 .info {
     margin-top: 20px;
@@ -328,9 +329,14 @@ li  {
 }
 
 
-h1  {
-    font-size-adjust: 50px;
+h1.bannerHeader  {
+    font-size-adjust: 3em;
 }
+
+h2.subheader    {
+    font-size-adjust: 2em
+}
+
 button.navButton  {
     display: none;
 }
@@ -358,7 +364,7 @@ label  {
 @media (min-width: 1025px)  {
 
 h1.bannerHeader  {
-    font-size: 45px;
+    font-size: 65px;
     color: white;
     text-shadow: 2px 2px 3px black;
     z-index: 1;
