@@ -1,12 +1,11 @@
-
-
-
-$("button.navButton").click(function()    {
+$("button.navButton").click(function () {
     $(".items").toggle();
 });
 
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function () { myFunction() };
+// When the user scrolls the page, execute myFunction
+window.onscroll = function () {
+    myFunction();
+};
 
 // Get the header
 var header = document.getElementById("menu");

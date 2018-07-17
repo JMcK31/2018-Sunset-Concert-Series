@@ -47,7 +47,6 @@ h2.subheader {
     color: whitesmoke;
     font-style: italic;
     text-shadow: 1px 1px 1px #0000007d;
-    ;
 }
 
 a.para-link {
@@ -294,11 +293,7 @@ li {
     padding: 1em;
     background: #7d5425;
 }
-/* 
-ul.box  {
-    width: 100%;
-    margin: auto;
-} */
+
 /*-- /footer --*/
 
 /*-- Reponse --*/
