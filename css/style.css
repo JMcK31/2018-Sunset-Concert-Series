@@ -126,7 +126,6 @@ a.para-link {
 .tickets-btn {
     display: inline-block;
     font-size: 32px;
-    font-color: white;
     background-color: #fc7e04;
     border-color: #fc7e04;
     border: 1px solid transparent;
@@ -136,10 +135,10 @@ a.para-link {
 }
 
 .btn-text   {
-    color: white;
+    color: whitesmoke;
 }
 
-a:hover.btn-text {
+.btn-hover:hover {
     color:blue;
 }
 
