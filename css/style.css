@@ -109,6 +109,13 @@ a.para-link {
     border-radius: 10px;
 }
 
+.social-icon:hover  {
+     background-color: #d43c7d;
+     border-radius: 10px;
+     text-decoration: none;
+     box-shadow: 4px 5px 10px 0px #00000045;
+}
+
 .main-body {
     margin-top: 2em;
     margin-bottom: 3em;
@@ -127,20 +134,22 @@ a.para-link {
     display: inline-block;
     font-size: 32px;
     background-color: #fc7e04;
-    border-color: #fc7e04;
+    border-color: #fc8004c7;
     border: 1px solid transparent;
     padding: 15px 32px;
-    text-decoration: none;
     border-radius: 10px;
+}
+
+.tickets-btn:hover  {
+    background-color: hsla(27, 99%, 60%, 0.946);
+    text-decoration: none;
 }
 
 .btn-text   {
     color: whitesmoke;
+     text-decoration: none;
 }
 
-.btn-hover:hover {
-    color:blue;
-}
 
 .info {
     margin-top: 20px;
@@ -162,8 +171,8 @@ a.para-link {
     padding-bottom: 35px; 
     overflow: hidden;
     background-color: #7d5425;
-        position: -webkit-sticky;
-        position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 .sticky {
@@ -211,7 +220,7 @@ li a {
     text-decoration: none;
 }
 
-a:hover {
+li a:hover {
     background-color: #d43c7d;
     color: whitesmoke;
     border-radius: 10px;
@@ -219,7 +228,7 @@ a:hover {
     box-shadow: 4px 5px 10px 0px #00000045;
 }
 
-li a::selection {
+li a:selection {
     background-color: #d43c7d;
     color: whitesmoke;
     border-radius: 10px;
@@ -270,7 +279,7 @@ label {
 
 /*-- /Photos.html styles --*/
 
-/*-- linupe page --*/
+/*-- lineup page --*/
 
 .lineupImg {
     height: auto;
@@ -280,6 +289,18 @@ label {
 
 /*-- /linupe page --*/
 
+/* --About-- */
+
+/* --/About-- */
+
+.bg-img {
+    background-color: forestgreen;
+    opacity: 0.3;
+}
+
+#about-body {
+    z-index: 1;
+}
 
 /*-- footer --*/
 
