@@ -124,16 +124,24 @@ a.para-link {
 }
 
 .tickets-btn {
+    display: inline-block;
+    font-size: 32px;
+    color: white;
     background-color: #fc7e04;
     border-color: #fc7e04;
-    color: whitesmoke;   
     border: 1px solid transparent;
-    padding: 1.25rem 3.125rem;
-}
+    padding: 15px 32px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    }
 
-.text-white {
-    font-size: 16px;
-}
+
+
+
 
 .info {
     margin-top: 20px;
@@ -180,14 +188,6 @@ button.navButton {
     margin-left: 5%;
 }
 
-/* button.navButton {
-    display: block;
-    background-color: #7d5425;
-    color: whitesmoke;
-    position: absolute;
-    top: 15px;
-    left: 32px;
-} fix navButton to absolute */
 
 ul {
     list-style-type: none;
@@ -294,11 +294,11 @@ li {
     padding: 1em;
     background: #7d5425;
 }
-
+/* 
 ul.box  {
     width: 100%;
     margin: auto;
-}
+} */
 /*-- /footer --*/
 
 /*-- Reponse --*/
@@ -367,5 +367,6 @@ h1.bannerHeader  {
     color: white;
     text-shadow: 2px 2px 3px black;
     z-index: 1;
+}
 }
 }
