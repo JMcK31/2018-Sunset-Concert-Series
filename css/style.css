@@ -152,11 +152,11 @@ a.para-link {
 .tickets-btn:hover  {
     background-color: hsla(27, 99%, 60%, 0.946);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-text   {
     color: whitesmoke;
-     text-decoration: none;
 }
 
 
@@ -306,6 +306,13 @@ label {
 
 .map    {
     padding-top: 30px;
+}
+
+.map-title  {
+    font: white;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 /* --/About-- */
