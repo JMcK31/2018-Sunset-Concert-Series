@@ -288,7 +288,8 @@ label {
 .lineupImg {
     height: auto;
     width: 100%;
-    margin: 1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /*-- /linupe page --*/
