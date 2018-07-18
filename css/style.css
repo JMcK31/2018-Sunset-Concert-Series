@@ -289,18 +289,21 @@ label {
 
 /*-- /linupe page --*/
 
+
+
 /* --About-- */
 
-/* --/About-- */
-
 .bg-img {
-    background-color: forestgreen;
-    opacity: 0.3;
+    background-color: rgb(160, 205, 224, 0.3);
+    border: 1px solid #f5f5dc40;
 }
 
 .about-body {
     z-index: 1;
 }
+/* --/About-- */
+
+
 
 /*-- footer --*/
 
