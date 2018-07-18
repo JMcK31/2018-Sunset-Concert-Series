@@ -294,13 +294,15 @@ label {
 /* --About-- */
 
 .bg-img {
-    background-color: rgb(160, 205, 224, 0.3);
+    background-color: rgba(171, 62, 158, 0.18);
     border: 1px solid #f5f5dc40;
+    padding-bottom: 2em;
 }
 
-.about-body {
-    z-index: 1;
+.map    {
+    padding-top: 30px;
 }
+
 /* --/About-- */
 
 
