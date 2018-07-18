@@ -1,4 +1,4 @@
-$("button.navButton").click(function () {
+$("button.burger").click(function () {
     $(".items").toggle();
 });
 
