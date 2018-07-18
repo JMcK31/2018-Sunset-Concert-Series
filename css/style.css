@@ -50,6 +50,15 @@ h2.subheader {
     text-shadow: 1px 1px 1px #0000007d;
 }
 
+.page-title {
+    font: whitesmoke;
+    font-weight: 700;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px #0000007d;
+    text-align: center;
+}
+
+
 a.para-link {
     color: #736db5;
     text-shadow: 1px 1px #f36b50ba;
@@ -150,11 +159,6 @@ a.para-link {
      text-decoration: none;
 }
 
-
-.info {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 .info p {
     line-height: 1.5;
