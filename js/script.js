@@ -6,22 +6,28 @@ $("button.burger").click(function () {  // when button.burger is activated run f
 
 
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function () {
+window.onscroll = function () {  //tells browser to listen to scroll and be ready for a function
     myFunction();
 };
 
-// Get the header
-var header = document.getElementById("naviBar");
-
-// Get the offset position of the navbar
+var header = document.getElementById("naviBar");  //
 var hold = header.offsetTop;
 
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
-    if (window.pageYOffset > hold) {
-        header.classList.add("hold");
+    if (window.pageYOffset > hold) {    //class hold is a child element of pageYoffset
+        header.classList.add("hold");  //class hold is added to the header div
     } else {
-        header.classList.remove("hold");
+        header.classList.remove("hold");  //class hold is removed from the header div
     }
 }
+
+
+// $(".anthem").hover(function () {
+//     $(this).toggleClass("hovered");
+//     $(".anthemText").toggleClass("hovered");
+// });
+
+// $(".anthem").click(function () {
+//     $(this).toggleClass("hovered");
+//     $(".anthemText").toggleClass("hovered");
+// });
