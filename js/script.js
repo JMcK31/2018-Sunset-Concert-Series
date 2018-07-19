@@ -22,6 +22,7 @@ function myFunction() {
 }
 
 
+
 // $(".anthem").hover(function () {
 //     $(this).toggleClass("hovered");
 //     $(".anthemText").toggleClass("hovered");
