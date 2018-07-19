@@ -31,3 +31,9 @@ function myFunction() {
 //     $(this).toggleClass("hovered");
 //     $(".anthemText").toggleClass("hovered");
 // });
+
+$(document).ready(function () {
+    $("question").click(function () {
+        $(this).show("answer");
+    });
+});
