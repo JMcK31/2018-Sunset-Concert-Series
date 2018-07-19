@@ -167,10 +167,12 @@ a.para-link {
 
 /*-- Navbar --*/
 
+element.style {}
+
 #naviBar {
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 35px; 
+    padding-top: 8px;
+    padding-bottom: 25px;
     overflow: hidden;
     background-color: #7d5425;
     position: -webkit-sticky;
@@ -191,8 +193,9 @@ a.para-link {
 
 button.burger {
     display: block;
+    font-size: 24px;
     background-color: #7d5425;
-    border-color : #7d5425;
+    border: none;
     color: whitesmoke;
     margin-top: 20px;
     margin-left: 5%;
