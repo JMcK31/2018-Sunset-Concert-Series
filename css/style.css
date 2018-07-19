@@ -57,7 +57,8 @@ h2.subheader {
 
 
 a.para-link {
-    color: #736db5;
+    color: #543919cf;
+    font-weight: 600;
     text-shadow: 1px 1px #f36b50ba;
 }
 
@@ -136,6 +137,8 @@ a.para-link {
     right: 32px;
 }
 
+/* ticket button styles */
+
 #tickets    {
     text-align: center;
 }
@@ -160,7 +163,7 @@ a.para-link {
     color: whitesmoke;
 }
 
-
+/* /ticket button styles */
 
 .info p {
     line-height: 1.5;
