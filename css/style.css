@@ -136,6 +136,10 @@ a.para-link {
     right: 32px;
 }
 
+#tickets    {
+    text-align: center;
+}
+
 .tickets-btn {
     display: inline-block;
     font-size: 32px;
