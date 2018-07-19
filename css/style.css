@@ -56,10 +56,18 @@ h2.subheader {
 }
 
 
-a.para-link {
+.para-link {
     color: #543919cf;
     font-weight: 600;
-    text-shadow: 1px 1px #f36b50ba;
+
+}
+
+.para-link:hover {
+    background-color: #d43c7d;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 4px 5px 10px 0px #00000045;
 }
 
 .img-shadow {
@@ -170,7 +178,6 @@ a.para-link {
     font-size: 16px;
 }
 
-/*-- /class styles --*/
 
 /*-- Navbar --*/
 
@@ -211,8 +218,6 @@ button.burger {
 ul {
     list-style-type: none;
 }
-
-
 
 ul.items,
 li {
