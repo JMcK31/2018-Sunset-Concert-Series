@@ -56,13 +56,12 @@ h2.subheader {
 }
 
 
-.para-link {
+.text-link {
     color: #543919cf;
     font-weight: 600;
-
 }
 
-.para-link:hover {
+.text-link:hover {
     background-color: #d43c7d;
     color: whitesmoke;
     border-radius: 10px;
@@ -325,6 +324,10 @@ label {
     text-align: left;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+.section-title  {
+    font-weight: 600;
 }
 
 /* --/About-- */
