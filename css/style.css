@@ -27,6 +27,9 @@ h1.bannerHeader  {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 p,
 li {
     color: whitesmoke;
@@ -329,12 +332,12 @@ label {
     padding-top: 30px;
 }
 
-/* .map-title  {
+hr.map-title  {
     font: white;
     text-align: left;
     margin-top: 16px;
     margin-bottom: 16px;
-} */
+}
 
 .section-title  {
     font-weight: 600;
