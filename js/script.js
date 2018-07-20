@@ -20,3 +20,4 @@ function myFunction() {
         header.classList.remove("hold");  //class hold is removed from the header section if the broswer does not scroll or the scroll exceeds the header verticle height
     }
 }
+ 
