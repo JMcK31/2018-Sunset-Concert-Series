@@ -27,7 +27,8 @@ h1.bannerHeader  {
 h1,
 h2,
 h3,
-p {
+p,
+li {
     color: whitesmoke;
     text-align: center;
    font-family: 'Montserrat',
@@ -122,13 +123,6 @@ h2.subheader {
     border-radius: 10px;
 }
 
-.social-icon:hover  {
-     background-color: #d43c7d;
-     border-radius: 10px;
-     text-decoration: none;
-     box-shadow: 4px 5px 10px 0px #00000045;
-}
-
 .main-body {
     margin-top: 2em;
     margin-bottom: 3em;
@@ -141,6 +135,13 @@ h2.subheader {
     position: absolute;
     top: 15px;
     right: 32px;
+}
+
+.brand:hover {
+    background-color: #d43c7d;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 4px 5px 10px 0px #00000045;
 }
 
 /* ticket button styles */
@@ -220,8 +221,9 @@ ul {
 ul.items,
 li {
     display: none;
-    font-size: 20px;
     flex-direction: column;
+    font-size: 20px;
+    font-weight: 450;
     text-decoration: none;
     text-shadow: 2px 1px #383d41;
 }
@@ -276,6 +278,7 @@ i   {
     border-color: #856404;
     color: whitesmoke;
     cursor: pointer;
+    font-weight: 600;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -372,6 +375,7 @@ ul.items,
 li  {
     display: flex;
     flex-direction: row;
+    font-weight: 450;
     justify-content: center;
     padding-top: 5px;
     padding-bottom: 5px;
