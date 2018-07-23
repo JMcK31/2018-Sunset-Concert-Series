@@ -337,6 +337,14 @@ label {
     font-weight: 600;
 }
 
+ul.qAnda    {
+    display: block;
+    flex-direction: column;
+    background-color: none;
+    justify-content: left;
+
+
+}
 /* --/About-- */
 
 

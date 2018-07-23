@@ -25,10 +25,10 @@ function myFunction() {
 //about page q&a
 $(document).ready(function () {
 
-    $('.qAnda li span').hide();
+    $('.qAnda li p').hide();
 
     $('.btn').click(function () {
-        let $answer = $(this).siblings('span');
-        $answer.fadeToggle('700');
+        let $answer = $(this).siblings('p');
+        $answer.fadeToggle('900');
     });
 });
