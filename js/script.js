@@ -21,3 +21,13 @@ function myFunction() {
     }
 }
  
+
+$(document).ready(function () {
+
+    $('.qAnda li span').hide();
+
+    $('.btn').click(function () {
+        let $answer = $(this).siblings('span');
+        $answer.toggle('900');
+    });
+});
