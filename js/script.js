@@ -1,10 +1,10 @@
 
 // Jquery tells browser to listen for a click event
 $("button.burger").click(function () {  // when button.burger is activated run function:
-    $(".items").toggle(); // toggle class .itmes on click event
+    $(".items").toggle(); // toggle class .itmes on click event, toggle activates .items display: block;
 });
 
-
+//chain a function to turn off navBar row to setup slideToggle function above 
 
 window.onscroll = function () {  //tells browser to listen for a verticle scroll event and be ready to execute a function
     myFunction();
@@ -22,12 +22,13 @@ function myFunction() {
 }
  
 
+//about page q&a
 $(document).ready(function () {
 
     $('.qAnda li span').hide();
 
     $('.btn').click(function () {
         let $answer = $(this).siblings('span');
-        $answer.toggle('900');
+        $answer.fadeToggle('700');
     });
 });
