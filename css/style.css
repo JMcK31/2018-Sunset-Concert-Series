@@ -16,9 +16,7 @@ body {
 
 
 h1.bannerHeader  {
-    font: 45px Helvetica,
-    Arial,
-    sans-serif;
+    font: 45px;
     font-weight: 600;
     color: #f5f5f5;
     text-shadow: 2px 2px 3px black; 
@@ -34,7 +32,7 @@ p,
 li {
     color: whitesmoke;
     text-align: center;
-   font-family: 'Montserrat',
+   font-family: Montserrat,
    sans-serif;
 }
 
@@ -270,9 +268,8 @@ i   {
 #mc_embed_signup {
     background: #C84687;
     clear: left;
-    font: 1em Helvetica, Arial, sans-serif;
     width: 100%;
-    font-family: 'Montserrat',
+    font-family: 'Montserrat,
     sans-serif;
 }
 
@@ -366,7 +363,7 @@ li {
 
 /*-- Reponse --*/
 
-@media all and (max-width: 325px)  {
+@media all and (max-width: 390px)  {
 
  #mc_embed_signup  {
     font: 13px;
@@ -404,6 +401,10 @@ h1.bannerHeader  {
 h2.subheader    {
     font-size-adjust: 2em
 }
+
+ #mc_embed_signup {
+     font: 1.5em;
+ }
 
 button.burger  {
     display: none;
