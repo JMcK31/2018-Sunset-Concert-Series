@@ -322,7 +322,7 @@ ul.qAnda {
 /*-- footer --*/
 footer.wrap,
 ul,
-li {
+li  {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
@@ -345,7 +345,7 @@ li {
    }
 
    h2.subheader {
-        font-size-adjust: 32px;
+        font-size: 32px;
     }
 
     ul.items,
@@ -390,10 +390,10 @@ li {
     label {
         display: inline-block;
     }
+}
     @media (min-width: 1024px) {
         h1.bannerHeader {
             font-size: 65px;
         }
-    }
 }
 /*-- /response --*/
