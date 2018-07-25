@@ -390,7 +390,8 @@ li  {
     label {
         display: inline-block;
     }
-}
+}    
+
     @media (min-width: 1024px) {
         h1.bannerHeader {
             font-size: 65px;
