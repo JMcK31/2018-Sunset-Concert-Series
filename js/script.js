@@ -1,6 +1,6 @@
 // Jquery tells browser to listen for a click event
 $("button.burger").click(function () { // click event handler tells browser to "do something" when button.burger engaged 
-    $(".items").toggle(); //  click evecnt activates toggle function, .items display: block is activated on toggle click and deactivated on toggle click
+    $(".items").toggle(); //  click event activates toggle function, .items display: block is activated on toggle click and deactivated on toggle click
 });
 
 
@@ -9,15 +9,15 @@ window.onscroll = function () { //tells browser to listen for a verticle scroll 
     myFunction();
 };
 var header = document.getElementById("naviBar"); //targets class naviBar and declares as variable header
-var hold = header.offsetTop; //offset height of the header variable is declared as var hold 
+var hold = header.offsetTop; //pixelated distance of variable header is entered into variable hold
+//class hold is added to naviBar when vertical scroll reaches bottom of header and removed when the page scrolls past the header.
 function myFunction() {
-    if (window.scrollY > hold) { //mouse event verticle scroll is a parent to class hold. 
-        header.classList.add("hold"); //class hold is added to the header section, sticky effect is activated
+    if (window.scrollY > hold) { 
+        header.classList.add("hold");
     } else {
-        header.classList.remove("hold"); //class hold is removed from the header section if the browser does not scroll or the scroll exceeds the header verticle height
-    }
+        header.classList.remove("hold"); 
 }
-
+}
 
 //about page q&a
 $(document).ready(function () {
