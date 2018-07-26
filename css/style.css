@@ -10,10 +10,11 @@
 body {
     background: linear-gradient( #7b76af, #dfac8f);
     width: 100%;
-     font-family: 'Proxima Nova',
-     Montserrat,
-     sans-serif;
-     color: whitesmoke;
+    font-family: 'Proxima Nova',
+    Montserrat,
+    sans-serif;
+    color: whitesmoke;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -257,7 +258,6 @@ i {
     padding-left: 20px;
     padding-right: 20px;
 }
-
 /*-- /e-newsletter sign-up --*/
 
 /*-- Photos.html-styles --*/
