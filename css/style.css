@@ -10,34 +10,23 @@
 body {
     background: linear-gradient( #7b76af, #dfac8f);
     width: 100%;
+     font-family: 'Proxima Nova',
+     Montserrat,
+     sans-serif;
+     color: whitesmoke;
     margin: 0;
     padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-li {
-    color: whitesmoke;
-    text-align: center;
-    font-family: Montserrat, sans-serif;
 }
 
 h1.bannerHeader {
     font: 45px;
     font-weight: 600;
-    color: #f5f5f5;
     text-shadow: 2px 2px 3px black;
 }
 
 h2.subheader {
     font-size: 20px;
     font-weight: 700;
-    color: whitesmoke;
     font-style: italic;
     text-shadow: 1px 1px 1px #0000007d;
 }
@@ -47,7 +36,6 @@ h3.para-header {
 }
 
 .page-title {
-    font: whitesmoke;
     font-weight: 700;
     font-size: 1em;
     text-shadow: 1px 1px 1px #0000007d;
@@ -61,7 +49,6 @@ h3.para-header {
 
 .text-link:hover {
     background-color: #d43c7d;
-    color: whitesmoke;
     border-radius: 10px;
     text-decoration: none;
     box-shadow: 4px 5px 10px 0px #00000045;
@@ -257,8 +244,6 @@ i {
     background: #C84687;
     clear: left;
     width: 100%;
-    font-family: Montserrat,
- sans-serif;
 }
 
 #mc_embed_signup .button {
@@ -271,13 +256,8 @@ i {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: Montserrat, sans-serif;
 }
 
-label {
-    color: #f5f5f5;
-    font-family: Montserrat, sans-serif;
-}
 /*-- /e-newsletter sign-up --*/
 
 /*-- Photos.html-styles --*/
