@@ -149,6 +149,17 @@ h3.para-header {
     border-radius: 10px;
 }
 
+.about-btn  {
+    display: inline-block;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: none;
+    border: 1px solid transparent;
+    padding: 15px 32px;
+    border-radius: 10px;
+}
+ 
+
 .tickets-btn:hover {
     background-color: hsla(27, 99%, 60%, 0.946);
     text-decoration: none;
@@ -157,6 +168,7 @@ h3.para-header {
 
 .btn-text {
     color: whitesmoke;
+    filter: alpha(opacity=0);
 }
 
 /*-- /ticket-button-styles --*/
