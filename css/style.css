@@ -238,6 +238,7 @@ li {
     font-weight: 450;
     text-decoration: none;
     text-shadow: 2px 1px #383d41;
+    background-color: inherit;
 }
 
 li a {
@@ -333,6 +334,15 @@ ul.qAnda {
 /* --/About-- */
 
 /*-- footer --*/
+footer {
+    background-color: #7d5425;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+}
+
 footer.wrap,
 ul,
 li  {
@@ -341,7 +351,6 @@ li  {
     justify-content: center;
     margin: 0;
     padding: 1em;
-    background: #7d5425;
 }
 /*-- /footer --*/
 
