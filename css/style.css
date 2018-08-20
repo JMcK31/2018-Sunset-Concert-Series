@@ -4,14 +4,14 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
-
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 /*-- baseline-stlyes --*/
 
 body {
     background: linear-gradient( #7b76af, #dfac8f);
     width: 100%;
-    font-family: 'Proxima Nova',
-    Montserrat,
+    font-family: 'proxima nova',
+    'montserrat',
     sans-serif;
     color: whitesmoke;
     text-align: center;
@@ -254,7 +254,7 @@ li a:hover {
     color: whitesmoke;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 4px 5px 10px 0px #00000045;
+    /* box-shadow: 4px 5px 10px 0px #00000045; */
 }
 
 li a:selection {
@@ -272,7 +272,6 @@ i {
 .newsletter-wrap {
     display: flex;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
 }
 
 #mc_embed_signup {
