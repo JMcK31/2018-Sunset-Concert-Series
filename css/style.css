@@ -282,17 +282,19 @@ i {
 .newsletter-wrap {
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
 
 #mc_embed_signup {
-    background: #C84687;
+    background: #7d5425;
     clear: left;
     width: 100%;
 }
 
 #mc_embed_signup .button {
-    background-color: #543919;
-    border-color: #856404;
+    background-color: #c84687;
+    border-color: #c84687;
+    border-radius: 7px;
     color: whitesmoke;
     cursor: pointer;
     font-weight: 600;
