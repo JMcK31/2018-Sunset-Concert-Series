@@ -32,6 +32,9 @@ h2.subheader {
     text-shadow: 1px 1px 1px #0000007d;
 }
 
+p   {
+    font-size: 14px;
+}
 
 .page-title {
     font-weight: 700;
@@ -111,7 +114,7 @@ h2.subheader {
     box-shadow: 0px 7px 12px 2px #0000004a;
 }
 
-.social-icon {:
+.social-icon {
     border-radius: 10px;
 }
 
@@ -254,7 +257,6 @@ li a:hover {
     color: whitesmoke;
     border-radius: 10px;
     text-decoration: none;
-    /* box-shadow: 4px 5px 10px 0px #00000045; */
 }
 
 li a:selection {
@@ -353,13 +355,7 @@ li  {
 }
 /*-- /footer --*/
 
-/*-- Reponse --*/
-@media all and (max-width: 390px) {
-    #mc_embed_signup {
-        font: 13px;
-    }
-}
-
+/*-- Reponsiveness --*/
 @media all and (min-width: 768px) {
    h1.bannerHeader {
        font-size: 60px;
@@ -378,6 +374,8 @@ li  {
         padding-top: 5px;
         padding-bottom: 5px;
     }
+
+    
     #naviBar {
         margin: auto;
         padding-top: 10px;
@@ -388,19 +386,21 @@ li  {
         position: sticky;
     }
  
- 
     #mc_embed_signup {
         font: 1.5em;
     }
+
     button.burger {
         display: none;
     }
+
     .banner-about,
     .banner-home,
     .banner-lineup,
     .banner-photos {
         padding: 150px;
     }
+
     footer.wrap,
     ul,
     li {
@@ -408,6 +408,7 @@ li  {
         flex-direction: row;
         justify-content: center;
     }
+
     label {
         display: inline-block;
     }
