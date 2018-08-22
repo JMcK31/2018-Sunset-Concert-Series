@@ -38,12 +38,12 @@ p   {
 
 .page-title {
     font-weight: 700;
-    font-size: 1em;
+    font-size: 14px;
     text-align: center;
 }
 
 .text-link {
-    color: #543919cf;
+    color:#c84687;
     font-weight: 600;
 }
 
@@ -147,8 +147,8 @@ p   {
 .tickets-btn {
     display: inline-block;
     font-size: 32px;
-    background-color: #fc7e04;
-    border-color: #fc8004c7;
+    background-color: #f46b4f;
+    border-color: #f46b4f;
     border: 1px solid transparent;
     padding: 15px 32px;
     border-radius: 10px;
@@ -173,8 +173,13 @@ li a:hover {
 
 .btn-text {
     color: whitesmoke;
-    filter: alpha(opacity=0);
     white-space: normal;
+}
+
+
+.btn:focus  {
+    outline: 0;
+    box-shadow: 0 0 0 0;;
 }
 
 .about-btn  {
@@ -188,13 +193,15 @@ li a:hover {
 }
 
 .about-btn:hover  {
-      background-color: hsla(27, 99%, 60%, 0.946);
+      font: (205, 163, 149);
+      border-color: transparent;
       text-decoration: none;
       cursor: pointer;
 }
 
 button.about-btn:selection   {
-    border-color: transarent;
+  font: rgba(245, 245, 245, 0.61);
+  border-color: transparent;
 }
  /*-- /button-styles --*/
 
@@ -246,6 +253,8 @@ li {
 
 li a {
     display: block;
+    font-size: 16px;
+    font-weight: 600;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -314,7 +323,6 @@ i {
 /* --About-- */
 .bg-img {
     background-color: rgba(171, 62, 158, 0.18);
-    border: 1px solid #f5f5dc40;
     padding-bottom: 2em;
 }
 
