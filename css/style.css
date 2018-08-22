@@ -32,14 +32,10 @@ h2.subheader {
     text-shadow: 1px 1px 1px #0000007d;
 }
 
-h3.para-header {
-    text-shadow: 1px 1px 0px black;
-}
 
 .page-title {
     font-weight: 700;
     font-size: 1em;
-    text-shadow: 1px 1px 1px #0000007d;
     text-align: center;
 }
 
@@ -50,7 +46,10 @@ h3.para-header {
 
 .text-link:hover {
     background-color: #d43c7d;
-    border-radius: 10px;
+    color: whitesmoke;
+    border-radius: 4px;
+    padding: 3px;   
+    margin-left: -6px;
     text-decoration: none;
     box-shadow: 4px 5px 10px 0px #00000045;
 }
@@ -112,8 +111,12 @@ h3.para-header {
     box-shadow: 0px 7px 12px 2px #0000004a;
 }
 
-.social-icon {
+.social-icon {:
     border-radius: 10px;
+}
+
+.social-icon:hover  {
+    margin: 10px;
 }
 
 .brand {
@@ -128,7 +131,6 @@ h3.para-header {
     background-color: #d43c7d;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 4px 5px 10px 0px #00000045;
 }
 /*-- /class-styles --*/
 
@@ -157,7 +159,6 @@ li a:hover {
     color: whitesmoke;
     border-radius: 10px;
     text-decoration: none;
-    box-shadow: 4px 5px 10px 0px #00000045;
 }
 
 
@@ -237,7 +238,6 @@ li {
     font-size: 20px;
     font-weight: 450;
     text-decoration: none;
-    text-shadow: 2px 1px #383d41;
     background-color: inherit;
 }
 
