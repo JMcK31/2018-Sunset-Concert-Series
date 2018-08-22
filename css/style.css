@@ -303,6 +303,10 @@ i {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+#mc_embed_signup .button:hover  {
+    background-color: #d473a4;
+}
 /*-- /e-newsletter sign-up --*/
 
 /*-- Photos.html-styles --*/
