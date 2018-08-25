@@ -130,6 +130,10 @@ p   {
     border-radius: 10px;
     text-decoration: none;
 }
+
+.aboutP {
+    padding-top: 30px;
+}
 /*-- /class-styles --*/
 
 
