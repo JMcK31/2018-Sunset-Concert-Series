@@ -173,12 +173,6 @@ li a:hover {
 
 
 /* About page button */
-.btn-text {
-    color: whitesmoke;
-    white-space: normal;
-}
-
-
 .btn:focus  {
     outline: 0;
     box-shadow: 0 0 0 0;;
@@ -192,18 +186,20 @@ li a:hover {
     border: transparent;
     padding: 0;
     margin: 0;
+    color: whitesmoke;
+    font-weight: 700;
 }
 
 .about-btn:hover  {
-      font: (205, 163, 149);
-      border-color: transparent;
-      text-decoration: none;
-      cursor: pointer;
+    font: (205, 163, 149);
+    border-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 button.about-btn:selection   {
-  font: rgba(245, 245, 245, 0.61);
-  border-color: transparent;
+    font: rgba(245, 245, 245, 0.61);
+    border-color: transparent;
 }
  /*-- /button-styles --*/
 
