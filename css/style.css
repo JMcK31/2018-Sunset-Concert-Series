@@ -132,6 +132,7 @@ h2.subheader {
 }
 
 .aboutP {
+    font-size: 16px;
     padding-top: 30px;
 }
 /*-- /class-styles --*/
@@ -181,7 +182,7 @@ li a:hover {
 
 .about-btn  {
     display: inline-block;
-    font-size: 1em;
+    font-size: 2em;
     background-color: rgba(0, 0, 0, 0);
     border-color: none;
     border: transparent;
@@ -189,6 +190,7 @@ li a:hover {
     margin: 0;
     color: whitesmoke;
     font-weight: 700;
+    line-height: 2.5;
 }
 
 .about-btn:hover  {

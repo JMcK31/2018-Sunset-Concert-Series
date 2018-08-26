@@ -11,7 +11,7 @@ window.onscroll = function () { //tells browser to listen for a verticle scroll 
 var header = document.getElementById("naviBar"); //targets class naviBar and declares as variable header
 var hold = header.offsetTop; //pixelated distance of variable header is entered into variable hold
 //class hold is added to naviBar when vertical scroll reaches bottom of header and removed when the page scrolls past the header.
-function myFunction() {
+function myFunction()  {
     if (window.scrollY > hold) { 
         header.classList.add("hold");
     } else {
@@ -27,3 +27,22 @@ $(document).ready(function () {
         $answer.fadeToggle('900');
     });
 });
+
+
+$(document).ready(function() {
+    $('.about-btn').click(function(){
+    $(this).css('font', '#FFFFFF');
+    });
+});
+
+window.onclick = function () {
+    myFunction();
+};
+
+document.getElementsByClassName('about-btn').onclick = changeColor;
+
+    function changeColor()  {
+        console.log(changeColor);
+        document.toggle.style.color = "red";
+        return false;
+    }
