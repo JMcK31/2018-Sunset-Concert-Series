@@ -28,7 +28,7 @@ $(document).ready(function () {
     });
 });
 
-
+//attempt to change the color of questions upon click
 $(document).ready(function() {
     $('.about-btn').click(function(){
     $(this).css('font', '#FFFFFF');
