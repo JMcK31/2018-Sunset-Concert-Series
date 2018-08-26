@@ -37,8 +37,7 @@ p   {
 }
 
 .page-title {
-    font-weight: 700;
-    font-size: 1em;
+    font-weight: 800;
     text-align: center;
     padding-top: 1em;
 }
@@ -149,6 +148,7 @@ p   {
     font-size: 32px;
     background-color: #f46b4f;
     border-color: #f46b4f;
+    color:  white;
     border: 1px solid transparent;
     padding: 15px 32px;
     border-radius: 10px;
