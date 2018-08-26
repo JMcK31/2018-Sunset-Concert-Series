@@ -32,9 +32,9 @@ h2.subheader {
     text-shadow: 1px 1px 1px #0000007d;
 }
 
-p   {
+/* p   {
     font-size: 14px;
-}
+} */
 
 .page-title {
     font-weight: 800;
@@ -222,7 +222,7 @@ button.about-btn:selection   {
     padding-top: 10px;
     padding-bottom: 40px;
     overflow: hidden;
-    background-color: #7d5425;
+    background-color: #7d54257c;
     z-index: 1;
 }
 
@@ -247,16 +247,15 @@ li {
     font-size: 20px;
     font-weight: 450;
     text-decoration: none;
-    background-color: inherit;
 }
 
 li a {
     display: block;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
 }
 
