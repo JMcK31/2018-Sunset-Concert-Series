@@ -10,9 +10,7 @@
 body {
     background: linear-gradient( #7b76af, #dfac8f);
     width: 100%;
-    font-family: 'proxima nova',
-    'montserrat',
-    sans-serif;
+    font-family: 'proxima nova', 'montserrat', sans-serif;
     color: whitesmoke;
     text-align: center;
     margin: 0;
@@ -43,7 +41,7 @@ h2.subheader {
 }
 
 .text-link {
-    color:#c84687;
+    color: #c84687;
     font-weight: 600;
 }
 
@@ -68,6 +66,7 @@ h2.subheader {
     margin-bottom: 3em;
     z-index: 2;
 }
+
 .banner-home {
     background-image: url("../img/lsdark.jpg");
     background-repeat: no-repeat;
@@ -116,7 +115,6 @@ h2.subheader {
     border-radius: 10px;
 }
 
-
 .brand {
     display: block;
     text-decoration: none;
@@ -134,8 +132,8 @@ h2.subheader {
 .aboutP {
     font-size: 16px;
 }
-/*-- /class-styles --*/
 
+/*-- /class-styles --*/
 
 /*-- button-styles --*/
 
@@ -148,15 +146,12 @@ h2.subheader {
     font-size: 32px;
     background-color: #f46b4f;
     border-color: #f46b4f;
-    color:  white;
+    color: white;
     border: 1px solid transparent;
     padding: 15px 32px;
     border-radius: 10px;
     font-weight: 700;
 }
-
-
-
 
 li a:hover {
     background-color: #d43c7d;
@@ -165,21 +160,21 @@ li a:hover {
     text-decoration: none;
 }
 
-
 .tickets-btn:hover {
     background-color: hsla(27, 99%, 60%, 0.946);
     text-decoration: none;
     cursor: pointer;
 }
 
-
 /* About page button */
-.btn:focus  {
+
+.btn:focus {
     outline: 0;
-    box-shadow: 0 0 0 0;;
+    box-shadow: 0 0 0 0;
+    ;
 }
 
-.about-btn  {
+.about-btn {
     display: inline-block;
     font-size: 2em;
     background-color: rgba(0, 0, 0, 0);
@@ -190,24 +185,26 @@ li a:hover {
     color: whitesmoke;
     font-weight: 700;
     line-height: 1.5;
-    white-space:normal !important;
-    word-wrap:break-word;
+    white-space: normal !important;
+    word-wrap: break-word;
 }
 
-.about-btn:hover  {
+.about-btn:hover {
     font: (205, 163, 149);
     border-color: transparent;
     text-decoration: none;
     cursor: pointer;
 }
 
-button.about-btn:selection   {
+button.about-btn:selection {
     font: rgba(245, 245, 245, 0.61);
     border-color: transparent;
 }
- /*-- /button-styles --*/
+
+/*-- /button-styles --*/
 
 /*-- Navbar --*/
+
 #naviBar {
     margin: auto;
     padding-top: 8px;
@@ -278,9 +275,11 @@ li a:selection {
 i {
     font-size: 24px;
 }
+
 /*-- /Navbar --*/
 
 /*-- e-newsletter-signup --*/
+
 .newsletter-wrap {
     display: flex;
     justify-content: center;
@@ -306,28 +305,34 @@ i {
     padding-right: 20px;
 }
 
-#mc_embed_signup .button:hover  {
+#mc_embed_signup .button:hover {
     background-color: #d473a4;
 }
+
 /*-- /e-newsletter sign-up --*/
 
 /*-- Photos.html-styles --*/
+
 #carousel {
     margin-top: 50px;
     margin-bottom: 150px;
 }
+
 /*-- /Photos.html styles --*/
 
 /*-- lineup page --*/
+
 .lineupImg {
     height: auto;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 /*-- /lineup-page --*/
 
 /* --About-- */
+
 .bg-img {
     background-color: rgba(171, 62, 158, 0.18);
     padding-bottom: 2em;
@@ -347,9 +352,11 @@ ul.qAnda {
     background-color: none;
     justify-content: left;
 }
+
 /* --/About-- */
 
 /*-- footer --*/
+
 footer {
     background-color: #7d5425;
     display: flex;
@@ -361,25 +368,25 @@ footer {
 
 footer.wrap,
 ul,
-li  {
+li {
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
     margin: 0;
     padding: 1em;
 }
+
 /*-- /footer --*/
 
 /*-- Reponsiveness --*/
-@media all and (min-width: 768px) {
-   h1.bannerHeader {
-       font-size: 60px;
-   }
 
-   h2.subheader {
+@media all and (min-width: 768px) {
+    h1.bannerHeader {
+        font-size: 60px;
+    }
+    h2.subheader {
         font-size: 32px;
     }
-
     ul.items,
     li {
         display: flex;
@@ -389,8 +396,6 @@ li  {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
-    
     #naviBar {
         margin: auto;
         padding-top: 10px;
@@ -400,22 +405,18 @@ li  {
         position: -webkit-sticky;
         position: sticky;
     }
- 
     #mc_embed_signup {
         font: 1.5em;
     }
-
     button.burger {
         display: none;
     }
-
     .banner-about,
     .banner-home,
     .banner-lineup,
     .banner-photos {
         padding: 150px;
     }
-
     footer.wrap,
     ul,
     li {
@@ -423,15 +424,15 @@ li  {
         flex-direction: row;
         justify-content: center;
     }
-
     label {
         display: inline-block;
     }
-}    
-
-    @media (min-width: 1024px) {
-        h1.bannerHeader {
-            font-size: 65px;
-        }
 }
+
+@media (min-width: 1024px) {
+    h1.bannerHeader {
+        font-size: 65px;
+    }
+}
+
 /*-- /response --*/
