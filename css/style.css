@@ -30,9 +30,9 @@ h2.subheader {
     text-shadow: 1px 1px 1px #0000007d;
 }
 
-/* p   {
-    font-size: 14px;
-} */
+p   {
+    line-height: 2em;
+}
 
 .page-title {
     font-weight: 800;
@@ -53,8 +53,9 @@ h2.subheader {
     box-shadow: 4px 5px 10px 0px #00000045;
 }
 
-.img-shadow {
-    box-shadow: 4px 5px 10px 0px #00000045;
+.para-header  {
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 /*-- /baseline-styles --*/
@@ -149,6 +150,8 @@ h2.subheader {
     color: white;
     border: 1px solid transparent;
     padding: 15px 32px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     border-radius: 10px;
     font-weight: 700;
 }
@@ -229,7 +232,7 @@ button.about-btn:selection {
 button.burger {
     display: block;
     font-size: 24px;
-    background-color: #7d5425;
+    background-color: transparent;
     border: none;
     color: whitesmoke;
     margin-top: 20px;
@@ -283,7 +286,7 @@ i {
 .newsletter-wrap {
     display: flex;
     justify-content: center;
-    padding-top: 1em;
+    padding-top: 10px;
 }
 
 #mc_embed_signup {
