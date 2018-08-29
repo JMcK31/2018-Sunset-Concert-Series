@@ -383,7 +383,7 @@ footer.wrap,
 ul,
 li {
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0;
     padding: 1em;
