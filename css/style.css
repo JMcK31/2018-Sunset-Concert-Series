@@ -20,7 +20,7 @@ body {
 h1.bannerHeader {
     font: 45px;
     font-weight: 600;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px #00000080;
 }
 
 h2.subheader {
@@ -34,6 +34,10 @@ p   {
     line-height: 2em;
 }
 
+h3  {
+    padding-top:22px;
+    padding-bottom: 22px;
+}
 .page-title {
     font-weight: 800;
     text-align: center;
@@ -76,7 +80,7 @@ p   {
     text-align: center;
     padding: 4em;
     margin-bottom: 1em;
-    box-shadow: 0px 7px 12px 2px #0000004a;
+    box-shadow: 2px 2px 3px 0px #1b1e2194;
 }
 
 .banner-lineup {
@@ -87,7 +91,7 @@ p   {
     text-align: center;
     padding: 4em;
     margin-bottom: 1em;
-    box-shadow: 0px 7px 12px 2px #0000004a;
+    box-shadow: 2px 2px 3px 0px #1b1e2194;
 }
 
 .banner-photos {
@@ -98,7 +102,7 @@ p   {
     text-align: center;
     padding: 4em;
     margin-bottom: 1em;
-    box-shadow: 0px 7px 12px 2px #0000004a;
+    box-shadow: 2px 2px 3px 0px #1b1e2194;
 }
 
 .banner-about {
@@ -109,7 +113,7 @@ p   {
     text-align: center;
     padding: 4em;
     margin-bottom: 1em;
-    box-shadow: 0px 7px 12px 2px #0000004a;
+    box-shadow: 2px 2px 3px 0px #1b1e2194;
 }
 
 .social-icon {
@@ -339,6 +343,7 @@ i {
 .bg-img {
     background-color: rgba(171, 62, 158, 0.18);
     padding-bottom: 2em;
+    padding-top: 15px;
 }
 
 .map {
@@ -354,6 +359,10 @@ ul.qAnda {
     flex-direction: column;
     background-color: none;
     justify-content: left;
+}
+
+h4.map-title  {
+    padding-bottom: 45px;
 }
 
 /* --/About-- */
