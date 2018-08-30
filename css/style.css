@@ -181,6 +181,17 @@ li a:hover {
     ;
 }
 
+.btn:hover  {
+    font-size: 22px;
+    color: #dbc1b4;
+    transition: font-size .5s, color .5s;
+}
+
+.btn:active {
+     color: #d6a792;
+     font-size: 23px;
+}
+
 .about-btn {
     display: inline-block;
     font-size: 2em;
