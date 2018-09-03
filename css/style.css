@@ -183,8 +183,7 @@ li a:hover {
 
 .btn:hover  {
     font-size: 22px;
-    color: #dbc1b4;
-    transition: font-size .5s, color .5s;
+    transition: font-size .4s, color .4s;
 }
 
 .btn:active {

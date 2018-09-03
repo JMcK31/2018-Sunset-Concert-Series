@@ -6,12 +6,12 @@ $("button.burger").click(function () { // click event handler tells browser to "
 
 //js for navigation bar stick to header, until reaching bottom of header
 window.onscroll = function () { //tells browser to listen for a verticle scroll event handler and be ready to execute a function
-    myFunction();
+    stickyNav();
 };
 var header = document.getElementById("naviBar"); //targets class naviBar and declares as variable header
 var hold = header.offsetTop; //pixelated distance of variable header is entered into variable hold
 //class hold is added to naviBar when vertical scroll reaches bottom of header and removed when the page scrolls past the header.
-function myFunction()  {
+function stickyNav()  {
     if (window.scrollY > hold) { 
         header.classList.add("hold");
     } else {
